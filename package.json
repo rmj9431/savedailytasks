@@ -16,11 +16,11 @@
         "npm": "5.6.x"
     },
     "scripts": {
-        "dev": "react-scripts start",
+        "dev": "react-scripts-ts start",
         "start": "serve -s build",
-        "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
+        "build": "react-scripts-ts build",
+        "test": "react-scripts-ts test --env=jsdom",
+        "eject": "react-scripts-ts eject",
         "heroku-postbuild": "npm run build"
     },
     "devDependencies": {
